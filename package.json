@@ -1,0 +1,32 @@
+{
+    "name": "mm_koa_proxy",
+    "version": "1.0.0",
+    "description": "这是超级美眉koa代理服务模块，用于将http请求转发到别的服务器上",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/qiuwenwu/mm_koa_proxy.git"
+    },
+    "keywords": [
+        "web",
+        "proxy",
+        "run",
+        "koa",
+        "async"
+    ],
+    "author": "邱文武",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/qiuwenwu/mm_koa_proxy/issues"
+    },
+    "homepage": "https://github.com/qiuwenwu/mm_koa_proxy#readme",
+    "dependencies": {
+        "http-proxy-middleware": "^1.0.5",
+        "koa2-connect": "^1.0.2",
+        "path-to-regexp": "^6.2.0"
+    },
+    "devDependencies": {}
+}
