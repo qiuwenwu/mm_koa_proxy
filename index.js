@@ -17,7 +17,7 @@ exports.isMatch = function(route, path){
  * @param {Object} option 配置参数，可以为字符串类型，输入主机地址host, 例如：http://localhost:3000
  */
 exports.proxyTo = async function(option, ctx, next) {
-	if (typeof(option) == 'string') {
+	if (typeof(option) === 'string') {
 		option = {
 			// target host
 			target: option,
